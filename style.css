@@ -1,0 +1,80 @@
+body {
+
+    color:rgb(204, 155, 31);
+  background:#150225;
+  margin: 0px;
+  font-family: "Bebas Neue", sans-serif;
+  margin-bottom: 50px;
+
+}
+  
+
+
+header{
+ border: solid 2px silver;
+ padding: 20px;
+ font-size: 32px;
+ color: blue;
+}
+
+.chamada {
+
+background: rgb(36, 9, 9);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+
+}
+
+.chamada-texto {
+
+margin-right: 5%;
+
+}
+
+h1 {
+
+ font-size: 40px;
+
+}
+
+p {
+  font-size: 20px;
+}
+
+img { 
+
+ height: 200px ;
+
+}
+
+.categoria {
+
+   display: flex;
+   overflow-x: auto;
+gap: 20px;
+
+}
+
+ .filmes {
+padding-left: 20px;
+pedding-right: 20px;
+margin-top: 20px;
+
+}
+
+.categoria img {
+
+opacity: 0.5;
+
+}
+
+.categoria img:hover {
+
+opacity: 1.0;
+border: 1px solid blue;
+
+}
+
+
